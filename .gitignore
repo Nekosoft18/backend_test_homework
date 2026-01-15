@@ -12,3 +12,9 @@ build/
 
 # Не игнорировать important.txt (исключение)
 !important.txt
+
+# Игнорировать все файлы .log
+*.log
+
+# (Но не main.log!)
+!main.log
